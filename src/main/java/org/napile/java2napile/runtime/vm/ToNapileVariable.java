@@ -31,5 +31,5 @@ public @interface ToNapileVariable
 {
 	String value() default "";
 
-	Class<ValueConverter> converter() default ValueConverter.class;
+	Class<? extends ValueConverter> converter() default ValueConverter.class;
 }
