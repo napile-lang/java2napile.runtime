@@ -15,7 +15,7 @@
   ~ limitations under the License.
   -->
 
-<project name="napile.java2napile" default="dist" basedir=".">
+<project name="java2napile" default="dist" basedir=".">
 	<property name="build.version" value="0.1" />
 
 	<property name="dist" location="dist" />
